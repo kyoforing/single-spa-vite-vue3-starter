@@ -1,0 +1,14 @@
+# IDE/Editor
+.vscode
+.idea
+
+# Package Manager
+package.json
+package-lock.json
+yarn.lock
+
+# Code
+/dist
+/coverage
+/node_modules
+**/assets/**/*
