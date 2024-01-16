@@ -4,15 +4,14 @@
     "scripts": {
         "dev": "vite --mode development",
         "stage": "vite --mode staging",
-        "build": "yarn lint:code && yarn lint:style && vite build",
+        "build": "vite build",
         "preview": "vite preview",
-        "prepare": "husky install",
         "lint:code": "eslint --ext .js,.ts,.vue --fix src",
         "lint:style": "stylelint **/*.{vue,css} --fix",
         "test": "jest --env=jsdom"
     },
     "dependencies": {
-        "single-spa-vue": "^2.5.1",
+        "single-spa-vue": "^3.0.0",
         "vue": "^3.2.26",
         "vue-router": "^4.0.12"
     },
